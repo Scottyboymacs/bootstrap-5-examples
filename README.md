@@ -6,12 +6,34 @@ How can we make our [unstyled apps](https://photogram-final.matchthetarget.com/)
 
 ## Target
 
-You'll find the target within this app, at the URL `/targets/landing`. (The code is located in the `public/` folder.)
+You'll find the target within this app, at the URL `/targets/landing`. (The solution code is located in the `public/` folder.)
+
+## Tasks
+
+Make your home page look like `/targets/landing`.
+
+## Add Bootstrap and Font Awesome
+
+Connect `bootstrap.css` and other assets by copying the following into the `<head>` of your documents; i.e., into `layouts/application.html.erb`.
+
+```
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+   crossorigin="anonymous"></script>
+
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+```
 
 ## Handy links
 
  - [All Bootstrap components in one place](https://getbootstrap.com/docs/5.2/examples/cheatsheet/)
- - [Bootstrap 5 Cheat Sheet](https://bootstrap-cheatsheet.themeselection.com/){:target="_blank"}
+ - [Bootstrap 5 Cheat Sheet](https://bootstrap-cheatsheet.themeselection.com/)
  - [Grid](https://getbootstrap.com/docs/5.2/layout/grid/)
     - [Examples](https://getbootstrap.com/docs/5.2/examples/grid/)
  - [Card](https://getbootstrap.com/docs/5.2/components/card/)
